@@ -1,0 +1,75 @@
+/*
+ * The Dark Blue CyberPatriot Training Tool
+ * Copyright (C) 2021 Scott Semian <darkbluedev@gmail.com>
+ *
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <https://www.gnu.org/licenses/>.
+ */
+
+:root {
+    font-size: 16px;
+    --text-primary: white;
+}
+
+.page-header{
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.page-info{
+    background-color: #282c34;
+    color: white;
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+.page-div {
+    margin-left: 15rem;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.page-body{
+    background-color: #282c34;
+    color: white;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 10px;
+    height: auto;
+    min-height: 86vh;
+}
+
+h1{
+    margin-bottom: 0px;
+}
+
+.user-field{
+    padding-bottom: 1rem;
+}
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #282c34;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(104, 98, 98);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
