@@ -139,3 +139,7 @@ dist
 /build
 .DS_Store
 .reuse
+build_files/
+build_files
+build_linux.sh
+build_windows.ps1
