@@ -24,8 +24,9 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Version info**
- - OS: Windows
- - Dark Blue Version: 
+ - OS (Windows or Linux):
+ - Dark Blue Version:
+ - Component (configuration tool, generator, scoring engine):
 
 **Additional context**
 Add any other context about the problem here.
