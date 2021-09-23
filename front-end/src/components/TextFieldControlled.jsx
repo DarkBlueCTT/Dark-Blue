@@ -1,4 +1,4 @@
-{/*
+/*
 The Dark Blue CyberPatriot Training Tool
 Copyright (C) 2021 Scott Semian <darkbluedev@gmail.com>
 
@@ -13,7 +13,7 @@ FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along with
 this program. If not, see <https://www.gnu.org/licenses/>.
-*/}
+*/
 
 import React, { Component } from 'react'
 import TextField from '@material-ui/core/TextField';

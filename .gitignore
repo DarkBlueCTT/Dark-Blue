@@ -131,6 +131,7 @@ dmypy.json
 # Other
 .vscode
 /node-modules
+node_modules/
 build
 dist
 /.pnp
