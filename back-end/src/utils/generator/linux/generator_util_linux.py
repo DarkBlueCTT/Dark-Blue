@@ -149,6 +149,7 @@ def create_question_files(generator: LinuxGenerator) -> None:
         else:  # Else create the file and write the contents as output.
             try:
                 out_file = open(path, "w")
+                out_file.write(generator.question_file_boilerplate)
                 out_file.write(file["question_content"])
                 out_file.close()
                 make_question_file_object(generator=generator, file=file, path=path)

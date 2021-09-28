@@ -53,6 +53,7 @@ def create_question_files(generator: WindowsGenerator) -> None:
             make_question_file_object(generator=generator, file=file, path=path)
         try:
             out_file = open(path, "w")
+            out_file.write(generator.question_file_boilerplate)
             out_file.write(file["question_content"])
             make_question_file_object(generator=generator, file=file, path=path)
         except FileNotFoundError:

@@ -46,6 +46,21 @@ class Generator:
 
         self.readme_path = None
 
+        self.question_file_boilerplate = """
+--------------------------------------------------------------------------
+The question file is meant to test general knowledge or ask a question
+about the current image.
+
+Answers are not case sensitive, but must be exactly matched.
+
+Answers should be in the following form:
+
+answer: [EXAMPLE ANSWER]
+
+'answer' must be included with a colon, and is not case sensitive.
+--------------------------------------------------------------------------\n\n
+"""
+
     def __str__(self) -> str:
         s = """
         filepath:         {}
