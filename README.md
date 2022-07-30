@@ -1,5 +1,7 @@
 # The Dark Blue CyberPatriot Training Tool
 
+## Note: Dark Blue is currently undergoing a major redesign and refactor.
+
 ## Note: This tool is currently in an Alpha state, there will be bugs.
 
 Dark Blue is a set of tools designed to help teams better prepare for CyberPatriot competition rounds by trying to make it easy to create custom practice images.
